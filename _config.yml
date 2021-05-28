@@ -6,7 +6,7 @@ email: Murrayalf@yandex.com
 description: "Murrayalf`s Blog including ctf writeups, technology sharing, other notes and more"
 keyword: "CTF WEB SECURITY"
 url: "https://murrayalf.github.io"          # your host, for absolute URL
-baseurl: "/blog"      # for example, '/blog' if your blog hosted on 'host/blog'
+baseurl: ""      # for example, '/blog' if your blog hosted on 'host/blog'
 github_repo: "https://github.com/murrayalf/murrayalf.github.io.git" # you code repository
 
 # Sidebar settings
