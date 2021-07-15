@@ -1,6 +1,6 @@
 ---
 layout:     post
-title:      QWB 2021 FINAL WEB WP
+title:      强网杯 2021 线下赛 WEB WP
 subtitle:   QWB 2021 FINAL WEB WP
 date:       20210715
 author:     murrayalf
@@ -8,6 +8,7 @@ header-img: img/the-first.png
 catalog: false
 tags:
     - writeup
+    - web
 ---
 
 前段时间参加了第五届强网杯线下赛，也是我第一次参加线下赛。经历了32个小时的鏖战，感受web题目质量还是很高的，最终勉强只做出来了几道题，和大手子们还是差的很远。现在进行一下做出来的题目的复盘，也还原一下当时的心路历程。
