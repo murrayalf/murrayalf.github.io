@@ -111,7 +111,7 @@ public function config($name = null)
 
 参数处理过程大概是在后台插件管理->后台登录背景插件->上传图片，提交修改->截包并修改config[pic]参数
 
-![1626250657375](1626250657375.png)
+![1626250657375](img-post/1626250657375.png)
 
 然后打开yzncms\addons\loginbg\config.php，会发现pic部分的value已经被改变
 
@@ -128,7 +128,7 @@ public function config($name = null)
 
 接着再退出用户，重新登录admin页面的时候则会调用yzncms/addons/loginbg/Loginbg.php adminLoginStyle漏洞函数并进行模板渲染，可以看到之前上传的内容已经被渲染进了模板。
 
-![162345](162345.png)
+![162345](img-post/162345.png)
 
 接下来就可以通过修改config[load]和config[pic]的值来进行任意文件读取，比如读/flag
 
@@ -354,7 +354,7 @@ ff02::2	ip6-allrouters
 
 2. nginx.conf 了解有http服务
 
-```ini
+```
 user  root;
 worker_processes  1;
 
@@ -396,7 +396,7 @@ http {
 
 这个文件很关键，尤其是46行 /api的路由，指示了题目下一步的方向
 
-```ini
+```
 lua_package_path '/usr/local/openresty/lualib/resty/?.ljbc;;';
 
 lua_ssl_verify_depth 2;
