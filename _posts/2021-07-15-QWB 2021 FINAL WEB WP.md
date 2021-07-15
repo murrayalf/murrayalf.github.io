@@ -128,7 +128,7 @@ public function config($name = null)
 
 接着再退出用户，重新登录admin页面的时候则会调用yzncms/addons/loginbg/Loginbg.php adminLoginStyle漏洞函数并进行模板渲染，可以看到之前上传的内容已经被渲染进了模板。
 
-![162345](img-post/162345.png)
+![162345](/img-post/162345.png)
 
 接下来就可以通过修改config[load]和config[pic]的值来进行任意文件读取，比如读/flag
 
