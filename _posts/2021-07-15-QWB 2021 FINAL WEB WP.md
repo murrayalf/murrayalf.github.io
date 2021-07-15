@@ -487,7 +487,7 @@ server {
 
 49行`local httpd = require "resty.http_dns"  ` 在github上lua-resty-http能找到部分源码
 
-在http://moguhu.com/article/detail?articleId=82可以找到http_dns.lua源码
+1行 `lua_package_path '/usr/local/openresty/lualib/resty/?.ljbc;;';`能读到http.ljbc,http_dns.ljbc，开始还想做一下反编译的工作，结果查了好多资料和工具也没能成功。最后在http://moguhu.com/article/detail?articleId=82可以找到http_dns.lua源码
 
 ```lua
 local http = require "resty.http"
