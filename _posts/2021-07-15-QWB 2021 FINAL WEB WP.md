@@ -111,7 +111,7 @@ public function config($name = null)
 
 参数处理过程大概是在后台插件管理->后台登录背景插件->上传图片，提交修改->截包并修改config[pic]参数
 
-![1626250657375](img-post/1626250657375.png)
+![1626250657375](/img-post/1626250657375.png)
 
 然后打开yzncms\addons\loginbg\config.php，会发现pic部分的value已经被改变
 
